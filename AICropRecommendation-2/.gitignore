@@ -1,0 +1,104 @@
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.venv
+venv/
+env/
+ENV/
+.Python
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build
+build/
+dist/
+
+# Data/Models
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.ckpt
+*.onnx
+*.tflite
+*.pb
+*.csv
+*.sqlite3
+*.db
+*.sqlite
+*.bak
+*.npy
+*.npz
+
+# Specific model files
+**/models/*.pth
+**/models/*.pt
+**/models/*.h5
+
+# Uploads/Generated
+uploads/
+output/
+outputs/
+
+# Misc
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+
+# Coverage
+coverage/
+*.cover
+*.coverage
+*.cov
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+
+# Expo/React Native
+.expo/
+.expo-shared/
+
+# Next.js
+.next/
+
+# Build Artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.egg-info/
